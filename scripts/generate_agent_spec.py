@@ -1,14 +1,4 @@
-"""
-generate_agent_spec.py
-Builds Retell-compatible Agent Spec JSON from Account Memo.
-System prompt follows EXACT assignment hygiene requirements:
-- Business hours flow: greeting/purpose/collect name+number/route/transfer/fallback/confirm/"anything else"/close
-- After hours flow: greet/purpose/confirm emergency/collect name+number+address/transfer/fallback/assure followup/"anything else"/close
-- Never mention function calls
-- Never ask too many questions
-- Clear transfer protocol + transfer-fail protocol
-Voice IDs from AiVanta Labs Customer Care Voices 2026 sheet.
-"""
+
 import json, datetime
 from typing import Any, Dict, List
 
