@@ -1,15 +1,4 @@
-"""
-run_pipeline.py — Single entry point. Processes all transcripts end-to-end.
 
-Pipeline A: demo transcript  → account_memo v1 → agent_spec v1 → Retell agent created
-Pipeline B: onboarding       → account_memo v2 → agent_spec v2 → Retell agent updated → changelog
-
-Storage: outputs/accounts/<id>/v1/ and v2/
-Summary: outputs/accounts_summary.csv + Google Sheets (if configured)
-
-Usage:
-    python scripts/run_pipeline.py
-"""
 import json, csv, sys, time, traceback, datetime, os
 from pathlib import Path
 from typing import Any, Dict, List, Tuple, cast

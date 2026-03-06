@@ -1,8 +1,4 @@
-"""
-task_tracker.py — Zero-cost local task tracker using SQLite.
-No API keys. No external services. Idempotent (safe to run multiple times).
-Stores one task row per account. Updates in place on re-run.
-"""
+
 import sqlite3, datetime
 from pathlib import Path
 

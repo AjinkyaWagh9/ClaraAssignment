@@ -1,11 +1,4 @@
-"""
-retell_client.py
-Retell AI API integration.
-Creates or updates agents via the Retell REST API.
-Uses free tier account — create/update agents programmatically.
 
-Docs: https://docs.retellai.com/api-references/create-agent
-"""
 import os, json, urllib.request, urllib.error
 from pathlib import Path
 
