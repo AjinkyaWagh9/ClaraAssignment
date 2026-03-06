@@ -1,0 +1,29 @@
+# Environment secrets — never commit
+.env
+.env.*
+!.env.example
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# SQLite database (runtime artifact)
+outputs/tasks.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
