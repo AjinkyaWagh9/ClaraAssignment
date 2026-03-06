@@ -1,7 +1,4 @@
-"""
-ingest.py — Load and pair demo + onboarding transcripts.
-Assigns stable account IDs. Handles missing onboarding gracefully.
-"""
+
 import re, uuid, sqlite3, datetime
 from pathlib import Path
 from typing import List, Dict, Optional, Any
