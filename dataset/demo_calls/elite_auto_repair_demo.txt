@@ -1,0 +1,34 @@
+DEMO CALL TRANSCRIPT - Elite Auto Repair
+Account ID: elite-auto-repair-004
+
+Sales Rep: Hi Carlos, tell me about Elite Auto Repair.
+
+Carlos (Owner): Full-service auto repair shop in Dallas, Texas. Address is 5500 Greenville Avenue, Dallas, TX 75206.
+
+Sales Rep: What services?
+
+Carlos: Engine diagnostics, brake repair, oil changes, battery replacement, transmission service, AC repair, and tire rotation.
+
+Sales Rep: Business hours?
+
+Carlos: Monday through Saturday, 8 AM to 7 PM Central Time. Closed Sundays.
+
+Sales Rep: What is an emergency?
+
+Carlos: Vehicle completely breaking down and customer is stranded — cannot move the car. Or a safety issue like brake failure while driving, smoking engine, or oil pressure warning with car running.
+
+Sales Rep: Emergency routing?
+
+Carlos: Call our roadside assist coordinator Ray at 214-776-3300. If Ray doesn't pick up, direct the caller to call AAA or their insurance roadside line. We call back within 30 minutes.
+
+Sales Rep: Non-emergency after hours?
+
+Carlos: Take the caller's name, vehicle make and model, and the issue. We call back when we open.
+
+Sales Rep: System constraints?
+
+Carlos: We use Mitchell1 for repair orders. AI cannot look up, create, or modify any repair order in Mitchell1. Never promise same-day service — we always have a wait list.
+
+Sales Rep: Transfer-fail message?
+
+Carlos: "I wasn't able to reach our roadside coordinator. Please call AAA or your insurance roadside assistance. We'll also have someone call you back within 30 minutes."

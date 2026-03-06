@@ -1,0 +1,36 @@
+ONBOARDING CALL TRANSCRIPT - GreenLeaf Landscaping
+Account ID: greenleaf-landscaping-002
+
+Onboarding Specialist: Hi Maria, let's finalize the GreenLeaf config.
+
+Maria: Great. A few things have changed since the demo.
+
+Onboarding Specialist: Go ahead.
+
+Maria: Business hours — we're adding Saturday now. 8 AM to 12 PM Pacific. So Monday through Saturday.
+
+Onboarding Specialist: Got it. Services?
+
+Maria: We're adding pool landscaping and hardscaping as new services. Big demand in San Diego.
+
+Onboarding Specialist: Emergency contact — Jorge still at 619-554-2201?
+
+Maria: Jorge is out. Our new emergency contact is Rosa at 619-554-3300. She's our new field supervisor.
+
+Onboarding Specialist: And the emergency line?
+
+Maria: That stays the same, 619-554-2200.
+
+Onboarding Specialist: Emergency definition change?
+
+Maria: Yes — add fallen tree blocking a driveway or damaging property as an emergency. We've had several after storms.
+
+Onboarding Specialist: Constraints — Jobber still the same?
+
+Maria: Yes, and add this: the agent should never discuss pesticide or herbicide application details on the phone. Customers ask but it's a liability issue. Just say "our specialist will explain the treatment plan on-site."
+
+Onboarding Specialist: Callback promise for emergencies — still 45 minutes?
+
+Maria: Reduce it to 30 minutes. Rosa is more responsive than Jorge was.
+
+Onboarding Specialist: Perfect, we'll build v2 with these changes.

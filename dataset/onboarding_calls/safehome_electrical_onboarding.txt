@@ -1,0 +1,32 @@
+ONBOARDING CALL TRANSCRIPT - SafeHome Electrical Services
+Account ID: safehome-electrical-005
+
+Onboarding Specialist: Hi Priya, let's lock in the final config for SafeHome.
+
+Priya: Perfect. Some things changed.
+
+Onboarding Specialist: Business hours?
+
+Priya: Dropping Saturday hours for now. Just Monday through Friday, 8 AM to 6 PM Mountain Time.
+
+Onboarding Specialist: Services to add?
+
+Priya: Add solar panel electrical hookups. We just got licensed for it.
+
+Onboarding Specialist: Emergency contacts — Devon and James still the same numbers?
+
+Priya: Devon is the same, 602-887-4410. James left. New backup is Aria at 602-887-5500.
+
+Onboarding Specialist: Emergency definition changes?
+
+Priya: Add flickering lights combined with burning smell — we want that to be treated as an emergency. Also add water damage affecting electrical outlets.
+
+Onboarding Specialist: Housecall Pro constraints still the same?
+
+Priya: Yes, no touching Housecall Pro. And add: the agent should never quote permit fees. Those vary and it's caused billing disputes.
+
+Onboarding Specialist: Updated transfer-fail with Aria's situation?
+
+Priya: Yes: "I wasn't able to reach our on-call electrician. If you see flames or smell smoke, call 911 immediately. Devon or Aria will call you back within 15 minutes. Please stay away from the affected area."
+
+Onboarding Specialist: Perfect, v2 going out today.

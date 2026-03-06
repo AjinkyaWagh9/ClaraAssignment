@@ -1,0 +1,38 @@
+DEMO CALL TRANSCRIPT - RapidFix Plumbing
+Account ID: rapidfix-plumbing-001
+
+Sales Rep: Hi Tom, thanks for joining the demo today. Can you walk me through RapidFix Plumbing?
+
+Tom (Owner): Sure. We're a residential and light commercial plumbing company in Austin, Texas. Office is at 2847 Lamar Boulevard, Austin, TX 78705.
+
+Sales Rep: What services do you support?
+
+Tom: Leak detection, pipe repairs, drain cleaning, water heater installation and repair, and fixture replacement. Emergency shut-off valve work too.
+
+Sales Rep: Normal business hours?
+
+Tom: Monday through Friday, 7 AM to 6 PM Central Time. Saturday 8 AM to 1 PM. Closed Sundays.
+
+Sales Rep: What counts as an emergency?
+
+Tom: Burst pipe, active flooding, gas smell near plumbing, complete loss of water supply, or a water heater leaking badly and risking water damage.
+
+Sales Rep: After-hours emergency routing?
+
+Tom: First call our on-call tech Marcus at 512-334-7821. If no answer within 30 seconds, try backup Linda at 512-334-9102. If neither answers, tell the caller a technician calls back within 20 minutes and to avoid using water.
+
+Sales Rep: Non-emergency after hours?
+
+Tom: Take name, number, and brief issue description. We call back first thing next business day.
+
+Sales Rep: Any system constraints?
+
+Tom: We use ServiceTitan for scheduling. The AI must never create a job or appointment in ServiceTitan. Only our dispatch team does that. Never quote prices over the phone.
+
+Sales Rep: Transfer-fail message?
+
+Tom: "I wasn't able to reach our on-call technician directly. I've logged your information and a technician will call you back within 20 minutes. Please avoid using water until then."
+
+Sales Rep: Anything else?
+
+Tom: Always ask for a callback number even if the caller seems about to hang up.

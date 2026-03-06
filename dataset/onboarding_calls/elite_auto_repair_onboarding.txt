@@ -1,0 +1,32 @@
+ONBOARDING CALL TRANSCRIPT - Elite Auto Repair
+Account ID: elite-auto-repair-004
+
+Onboarding Specialist: Hi Carlos, quick onboarding call for Elite Auto.
+
+Carlos: Yes, a few things to update.
+
+Onboarding Specialist: Hours first?
+
+Carlos: We're closing Saturday at 5 PM now instead of 7 PM. Technicians were burning out. So Monday through Saturday, 8 AM to 5 PM Central.
+
+Onboarding Specialist: Services to add?
+
+Carlos: Add fleet vehicle maintenance — we just signed a contract with a local delivery company.
+
+Onboarding Specialist: Emergency contact — Ray still at 214-776-3300?
+
+Carlos: Ray's the same. But add a backup: our service manager Diane at 214-776-3301. Try Ray first, then Diane.
+
+Onboarding Specialist: Emergency definition changes?
+
+Carlos: Add airbag warning light staying on as an emergency. Customers call about it and it's genuinely a safety issue.
+
+Onboarding Specialist: System constraints — Mitchell1 still no-touch?
+
+Carlos: Yes. And add: the agent should never promise a loaner car. We don't offer loaners — that's caused confusion before.
+
+Onboarding Specialist: Updated transfer-fail?
+
+Carlos: Keep the same message but add: "If you are in an unsafe location, please move away from traffic and call 911."
+
+Onboarding Specialist: Got it. We'll push v2 out today.

@@ -1,0 +1,36 @@
+ONBOARDING CALL TRANSCRIPT - RapidFix Plumbing
+Account ID: rapidfix-plumbing-001
+
+Onboarding Specialist: Hi Tom, this is the onboarding call to finalize your agent config. Let's confirm and update a few things from the demo.
+
+Tom: Sounds good.
+
+Onboarding Specialist: First, let's confirm business hours.
+
+Tom: We're actually adding Sunday now — 10 AM to 2 PM Central. Trial run for the summer. So it's Monday through Sunday now with those Sunday hours.
+
+Onboarding Specialist: Got it. Services — anything new?
+
+Tom: Yes, we're adding tankless water heater installation as a new service. A lot of customers are asking for it.
+
+Onboarding Specialist: Emergency contacts — Marcus and Linda still the same?
+
+Tom: Marcus's number changed. New cell is 512-334-9955. Linda is still 512-334-9102.
+
+Onboarding Specialist: Updated. Any new emergency triggers?
+
+Tom: Add sewage backup to the emergency list. We're getting a lot of those calls and people don't know if it's urgent. It is.
+
+Onboarding Specialist: Integration constraints — still ServiceTitan, no job creation?
+
+Tom: Yes, still. But add one more: the agent should never confirm or deny if a specific technician is available. Just say "our dispatch team will confirm your technician."
+
+Onboarding Specialist: Anything else to add to the agent prompt?
+
+Tom: If a caller asks about our pricing, the agent should say "pricing depends on the job and our team will provide a full quote on-site." Never give a number.
+
+Onboarding Specialist: Got it — we'll update to v2 with all of this.
+
+Tom: Perfect. When does it go live?
+
+Onboarding Specialist: We'll have the updated config to you by end of day.

@@ -1,0 +1,32 @@
+ONBOARDING CALL TRANSCRIPT - BrightSmile Dental Clinic
+Account ID: brightsmile-dental-003
+
+Onboarding Specialist: Hi Dr. Reyes, let's finalize the BrightSmile config.
+
+Dr. Reyes: Sure, a couple of updates.
+
+Onboarding Specialist: Business hours — anything change?
+
+Dr. Reyes: Yes. We're now open Saturday 10 AM to 2 PM Central. So Monday through Saturday going forward.
+
+Onboarding Specialist: Services to add?
+
+Dr. Reyes: Add teeth whitening and dental implants to the services list.
+
+Onboarding Specialist: On-call — Dr. Patel still at 312-445-8810?
+
+Dr. Reyes: Dr. Patel left the practice. New on-call dentist is Dr. Kim at 312-445-9920.
+
+Onboarding Specialist: Emergency definition changes?
+
+Dr. Reyes: Add lost or broken dental crown with pain as an emergency. Patients are calling at night for that and it belongs on the list.
+
+Onboarding Specialist: Anything else?
+
+Dr. Reyes: Yes — add a constraint: the agent should never mention our office wait times. Just say "our front desk will find the earliest available slot for you."
+
+Onboarding Specialist: Transfer-fail message needs updating for Dr. Kim?
+
+Dr. Reyes: Yes, change it to: "I wasn't able to reach Dr. Kim directly. If your pain is severe, please go to the nearest emergency room. Your information has been recorded and we'll call you back within one hour."
+
+Onboarding Specialist: Got it, all noted for v2.

@@ -1,0 +1,121 @@
+{
+    "name": "Clara AI Pipeline",
+    "nodes": [
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "minutes",
+                            "minutesInterval": 5
+                        }
+                    ]
+                }
+            },
+            "name": "Every 5 Minutes",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1,
+            "position": [
+                200,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "command": "cd /home/node/clara-pipeline && python3 scripts/run_pipeline.py 2>&1"
+            },
+            "name": "Run Pipeline",
+            "type": "n8n-nodes-base.executeCommand",
+            "typeVersion": 1,
+            "position": [
+                460,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "jsCode": "const out = ($input.first().json.stdout || '').toString();\nconst lines = out.split('\\n');\nconst get = (kw) => {\n  const line = lines.find(l => l.includes(kw));\n  if (!line) return '0';\n  const match = line.match(/\\d+/);\n  return match ? match[0] : '0';\n};\nreturn [{ json: {\n  status: parseInt(get('Errors')) === 0 ? 'success' : 'partial',\n  accounts_processed: parseInt(get('Accounts processed')),\n  v1_created: parseInt(get('v1 created')),\n  v2_created: parseInt(get('v2 created')),\n  errors: parseInt(get('Errors')),\n  output: out,\n  run_at: new Date().toISOString()\n}}];"
+            },
+            "name": "Parse Result",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                700,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "command": "cat /home/node/clara-pipeline/outputs/accounts_summary.csv 2>/dev/null || echo 'account_id,company_name,version'"
+            },
+            "name": "Read Summary CSV",
+            "type": "n8n-nodes-base.executeCommand",
+            "typeVersion": 1,
+            "position": [
+                940,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "jsCode": "const csv = ($input.first().json.stdout || '').toString().trim();\nconst prev = $('Parse Result').first().json;\nif (!csv) return [{ json: { ...prev, rows: [] } }];\n\nconst lines = csv.split('\\n').filter(Boolean);\nif (lines.length < 2) return [{ json: { ...prev, rows: [] } }];\n\nconst headers = lines[0].split(',').map(h => (h || '').trim());\nconst rows = lines.slice(1).map(line => {\n  const vals = line.split(',');\n  return headers.reduce((a, h, i) => {\n    if (h) a[h] = (vals[i] || '').trim();\n    return a;\n  }, {});\n});\n\nreturn [{ json: { ...prev, rows } }];"
+            },
+            "name": "Log and Done",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                1180,
+                300
+            ]
+        }
+    ],
+    "connections": {
+        "Every 5 Minutes": {
+            "main": [
+                [
+                    {
+                        "node": "Run Pipeline",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Run Pipeline": {
+            "main": [
+                [
+                    {
+                        "node": "Parse Result",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Parse Result": {
+            "main": [
+                [
+                    {
+                        "node": "Read Summary CSV",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Read Summary CSV": {
+            "main": [
+                [
+                    {
+                        "node": "Log and Done",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    }
+}

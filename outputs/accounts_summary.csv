@@ -1,0 +1,6 @@
+account_id,company_name,version,city,business_hours,services_count,v1_ready,v2_ready,changes_count,unknowns,processed_at
+brightsmile-dental-903acb,BrightSmile Dental Clinic,v2,"445 North Michigan Avenue, Suite 201, Chicago, IL 60611",Monday through Friday 9 AM–6 PM Central Time,4,yes,yes,8,0,2026-03-06T10:23:49.265693+00:00
+elite-auto-repair-dc1806,Elite Auto Repair,v2,"5500 Greenville Avenue, Dallas, TX 75206",Monday through Saturday 8 AM–7 PM Central Time,6,yes,yes,7,0,2026-03-06T10:23:51.892155+00:00
+greenleaf-landscaping-1b6703,GreenLeaf Landscaping,v2,"1190 Rosecrans Street, San Diego, CA 92106",Monday through Friday 7 AM–5 PM Pacific Time,5,yes,yes,8,0,2026-03-06T10:23:54.476543+00:00
+rapidfix-plumbing-a54009,RapidFix Plumbing,v2,"2847 Lamar Boulevard, Austin, TX 78705",Monday through Friday 7 AM–6 PM Central Time,6,yes,yes,8,0,2026-03-06T10:23:57.113508+00:00
+safehome-electrical-191e34,SafeHome Electrical Services,v2,"3310 East Thomas Road, Phoenix, AZ 85018",Monday through Friday 8 AM–6 PM Mountain Time,6,yes,yes,7,0,2026-03-06T10:23:59.914818+00:00

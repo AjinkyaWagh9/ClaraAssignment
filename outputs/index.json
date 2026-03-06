@@ -1,0 +1,67 @@
+[
+  {
+    "account_id": "brightsmile-dental-903acb",
+    "company_name": "BrightSmile Dental Clinic",
+    "version": "v2",
+    "city": "445 North Michigan Avenue, Suite 201, Chicago, IL 60611",
+    "business_hours": "Monday through Friday 9 AM\u20136 PM Central Time",
+    "services_count": 4,
+    "v1_ready": "yes",
+    "v2_ready": "yes",
+    "changes_count": 8,
+    "unknowns": 0,
+    "processed_at": "2026-03-06T10:23:49.265693+00:00"
+  },
+  {
+    "account_id": "elite-auto-repair-dc1806",
+    "company_name": "Elite Auto Repair",
+    "version": "v2",
+    "city": "5500 Greenville Avenue, Dallas, TX 75206",
+    "business_hours": "Monday through Saturday 8 AM\u20137 PM Central Time",
+    "services_count": 6,
+    "v1_ready": "yes",
+    "v2_ready": "yes",
+    "changes_count": 7,
+    "unknowns": 0,
+    "processed_at": "2026-03-06T10:23:51.892155+00:00"
+  },
+  {
+    "account_id": "greenleaf-landscaping-1b6703",
+    "company_name": "GreenLeaf Landscaping",
+    "version": "v2",
+    "city": "1190 Rosecrans Street, San Diego, CA 92106",
+    "business_hours": "Monday through Friday 7 AM\u20135 PM Pacific Time",
+    "services_count": 5,
+    "v1_ready": "yes",
+    "v2_ready": "yes",
+    "changes_count": 8,
+    "unknowns": 0,
+    "processed_at": "2026-03-06T10:23:54.476543+00:00"
+  },
+  {
+    "account_id": "rapidfix-plumbing-a54009",
+    "company_name": "RapidFix Plumbing",
+    "version": "v2",
+    "city": "2847 Lamar Boulevard, Austin, TX 78705",
+    "business_hours": "Monday through Friday 7 AM\u20136 PM Central Time",
+    "services_count": 6,
+    "v1_ready": "yes",
+    "v2_ready": "yes",
+    "changes_count": 8,
+    "unknowns": 0,
+    "processed_at": "2026-03-06T10:23:57.113508+00:00"
+  },
+  {
+    "account_id": "safehome-electrical-191e34",
+    "company_name": "SafeHome Electrical Services",
+    "version": "v2",
+    "city": "3310 East Thomas Road, Phoenix, AZ 85018",
+    "business_hours": "Monday through Friday 8 AM\u20136 PM Mountain Time",
+    "services_count": 6,
+    "v1_ready": "yes",
+    "v2_ready": "yes",
+    "changes_count": 7,
+    "unknowns": 0,
+    "processed_at": "2026-03-06T10:23:59.914818+00:00"
+  }
+]

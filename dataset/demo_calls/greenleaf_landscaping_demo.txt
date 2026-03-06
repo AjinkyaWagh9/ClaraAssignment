@@ -1,0 +1,34 @@
+DEMO CALL TRANSCRIPT - GreenLeaf Landscaping
+Account ID: greenleaf-landscaping-002
+
+Sales Rep: Hi Maria, tell me about GreenLeaf Landscaping.
+
+Maria (Operations Manager): We're a full-service landscaping and irrigation company in San Diego, California. Address is 1190 Rosecrans Street, San Diego, CA 92106.
+
+Sales Rep: Services you handle?
+
+Maria: Lawn maintenance, irrigation system installation and repair, landscape design, tree trimming, fertilization, and seasonal cleanup.
+
+Sales Rep: Business hours?
+
+Maria: Monday through Friday, 7 AM to 5 PM Pacific Time. No weekends.
+
+Sales Rep: What is an emergency?
+
+Maria: A major irrigation line break causing visible flooding or water waste over 10 gallons a minute. Everything else can wait until next day.
+
+Sales Rep: Emergency routing?
+
+Maria: Call our field supervisor Jorge at 619-554-2201. If he doesn't answer, leave a voicemail and try our office emergency line 619-554-2200. Caller should be told Jorge will call back within 45 minutes.
+
+Sales Rep: Non-emergency after hours?
+
+Maria: Take the caller's name, property address, and issue. We call back next morning before 9 AM.
+
+Sales Rep: System constraints?
+
+Maria: We use Jobber for scheduling. AI should never book or modify jobs in Jobber. Never discuss HOA billing disputes — those go directly to our accounts team.
+
+Sales Rep: Transfer-fail message?
+
+Maria: "I wasn't able to connect you with our field team right now. Your details have been recorded and Jorge will call you back within 45 minutes."

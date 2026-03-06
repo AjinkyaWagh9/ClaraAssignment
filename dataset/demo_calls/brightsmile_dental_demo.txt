@@ -1,0 +1,34 @@
+DEMO CALL TRANSCRIPT - BrightSmile Dental Clinic
+Account ID: brightsmile-dental-003
+
+Sales Rep: Hi Dr. Reyes, thanks for your time. Tell me about the practice.
+
+Dr. Reyes: BrightSmile Dental Clinic in Chicago, Illinois. Office is at 445 North Michigan Avenue, Suite 201, Chicago, IL 60611.
+
+Sales Rep: What does the AI need to handle?
+
+Dr. Reyes: Appointment inquiries, new patient info, questions about cleaning, fillings, root canals, orthodontics, and emergency dental care. The AI never books appointments — patients go through our front desk.
+
+Sales Rep: Clinic hours?
+
+Dr. Reyes: Monday through Friday 9 AM to 6 PM Central Time. Closed weekends.
+
+Sales Rep: What counts as a dental emergency?
+
+Dr. Reyes: Severe tooth pain rated 7 out of 10 or higher, knocked out tooth, dental abscess with facial swelling, uncontrolled bleeding after extraction, or broken tooth with exposed nerve.
+
+Sales Rep: After-hours emergency routing?
+
+Dr. Reyes: On-call dentist is Dr. Patel at 312-445-8810. If she doesn't answer, tell the patient to go to the nearest ER if pain is unbearable. We call back within one hour.
+
+Sales Rep: Non-emergency after hours?
+
+Dr. Reyes: Take patient name, date of birth, contact number, and concern. We call back when we open.
+
+Sales Rep: Constraints?
+
+Dr. Reyes: Never discuss treatment costs or insurance — that goes to billing. Never give medical advice. The agent must say "I'm not able to provide clinical guidance" and direct to the dentist.
+
+Sales Rep: Transfer-fail message?
+
+Dr. Reyes: "I wasn't able to reach Dr. Patel. If your pain is severe, please go to the nearest emergency room. Otherwise your information is recorded and we'll call you back within one hour."
