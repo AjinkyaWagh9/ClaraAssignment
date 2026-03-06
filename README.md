@@ -1,6 +1,6 @@
 # Clara AI — Automation Pipeline
 
-Clara AI is a zero-cost, rule-based automation pipeline designed to process call transcripts and generate Retell-compatible agent specifications. It handles both demo calls (Pipeline A) and onboarding calls (Pipeline B) to create and refine AI voice agent configurations.
+This is a zero-cost, rule-based automation pipeline designed to process call transcripts and generate Retell-compatible agent specifications. It handles both demo calls (Pipeline A) and onboarding calls (Pipeline B) to create and refine AI voice agent configurations.
 
 ## Features
 
