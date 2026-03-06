@@ -1,7 +1,4 @@
-"""
-diff_engine.py
-Extracts onboarding updates, merges v1→v2, writes changelog files.
-"""
+
 import json, re, datetime, sys, os
 from pathlib import Path
 from typing import Any, Dict, List
