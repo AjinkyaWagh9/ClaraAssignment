@@ -1,8 +1,3 @@
-"""
-extract_account_memo.py
-Rule-based extraction: transcript -> 14-field Account Memo JSON.
-Zero cost. No hallucination — missing fields go to questions_or_unknowns.
-"""
 import re, uuid
 from pathlib import Path
 from typing import Any, Dict, List, Optional, cast
