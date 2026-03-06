@@ -1,6 +1,4 @@
-"""
-normalize_transcript.py — Strip timestamps, headers, speaker noise from transcripts.
-"""
+
 import re
 
 def normalize(text: str) -> str:
