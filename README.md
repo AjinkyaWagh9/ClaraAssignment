@@ -36,7 +36,7 @@ Clara AI is a zero-cost, rule-based automation pipeline designed to process call
 
 ### 2. Installation
 ```bash
-pip install -r requirements.txt  # If requirements.txt is provided, otherwise standard lib is mostly used
+pip install -r requirements.txt
 ```
 
 ### 3. Running the Pipeline
@@ -47,11 +47,59 @@ python3 scripts/run_pipeline.py
 
 Results will be stored in `outputs/accounts/` and a summary will be generated in `outputs/accounts_summary.csv` and `outputs/index.json`.
 
-## Technical Details
+### Environment Variables
 
-- **Path Resolution**: The scripts use a standardized project-root resolution mechanism to handle package-prefixed imports (`scripts.xxxx`).
-- **Mock Mode**: If `RETELL_API_KEY` is not set in the environment, the system gracefully switches to mock mode, writing simulated responses to disk.
-- **Persistence**: `task_tracker.py` ensures that re-running the pipeline updates existing records rather than duplicating them.
+Copy `.env.example` to `.env` and fill in your values:
+
+```bash
+cp .env.example .env
+```
+
+| Variable | Required | Description |
+|---|---|---|
+| `RETELL_API_KEY` | Optional | From retell.ai → Settings → API Keys. Without it, pipeline runs in mock mode. |
+| `GOOGLE_SHEET_ID` | Optional | From Google Sheet URL. Requires `credentials/google_service_account.json`. |
+
+The pipeline runs fully without either key — Retell uses mock mode and storage uses local JSON files + SQLite.
+
+## Outputs
+
+After running the pipeline, find all outputs in `outputs/`:
+
+```
+outputs/
+├── accounts_summary.csv          ← one row per account, all versions
+├── index.json                    ← machine-readable run summary
+├── tasks.db                      ← SQLite task tracker (one task per account)
+└── accounts/
+    └── <account_id>/
+        ├── v1/
+        │   ├── account_memo.json ← 14-field structured extraction
+        │   └── agent_spec.json   ← Retell-compatible agent config + system prompt
+        └── v2/
+            ├── account_memo.json ← updated after onboarding
+            ├── agent_spec.json   ← updated agent config
+            ├── changes.json      ← machine-readable diff
+            └── changes.md        ← human-readable changelog
+
+changelog/
+└── <account_id>.md               ← copy of changes.md per account
+```
+
+## Known Limitations
+
+- Extraction is rule-based. Unusual transcript formats may miss some fields — check `questions_or_unknowns` in account_memo.json for flagged gaps.
+- Voice ID selection uses the first available voice in your Retell account. Change this in `retell_client.py` if you want a specific voice.
+- Google Sheets integration requires a service account JSON key file. See README for setup steps.
+
+## What I Would Improve With Production Access
+
+- Add Whisper transcription for audio files (currently requires text transcripts)
+- Use an LLM extraction layer (Claude or GPT-4o) as a fallback for ambiguous transcripts
+- Add a web dashboard to view accounts, changelogs, and diffs side-by-side
+- Connect to Asana API for real task tracking
+- Add idempotency by hashing transcripts — skip re-processing unchanged files
+- Add Slack/email notifications when a new v2 agent goes live
 
 ## License
 Proprietary / Assignment Internal
